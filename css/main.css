@@ -1,0 +1,56 @@
+body {
+    color: #fff;
+    background-color: #333;
+}
+/* Navigation Bar */
+
+.navbar {
+    border-bottom: 3px solid #0096ff;
+    opacity: 0.8;
+    color: #fff;
+}
+/* Font awesome */
+.fa {
+    padding: 10px;
+    color: #fff;
+}
+
+/* Display flex */
+.d-flex{
+    justify-content: center;
+}
+/* Checkboxes */
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home section */
+
+#home-section {
+    background: url(../img/pic1.png) no-repeat center center/cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+/* Blue overlay */
+
+.blue-overlay {
+    background: rgba(0, 150, 255, 0.2);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+/* Footer */
+
+hr {
+    color: #fff;
+}
