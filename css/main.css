@@ -26,6 +26,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Button */
+
+button {
+    outline: 0;
+}
 
 /* Home section */
 
